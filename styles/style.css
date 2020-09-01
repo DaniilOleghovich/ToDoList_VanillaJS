@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.header>h1 {
+    text-align: center;
+    color: #CC3300;
+
+}
+
+.todoList {
+
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todoList_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoList_form>button {
+    width: 20%;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
